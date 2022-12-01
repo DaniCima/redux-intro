@@ -1,0 +1,6 @@
+<div>
+  <h1>{{ message$ | async }}</h1>
+  <label for="">Message</label>
+  <input type="text" [(ngModel)]="message" placeholder="Message..." />
+  <button (click)="submitMessage()">submit</button>
+</div>
